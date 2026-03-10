@@ -12,6 +12,6 @@ WORKDIR /app
 
 COPY --from=publish /app/publish .
 
-EXPOSE 8000
+EXPOSE 80
 
 ENTRYPOINT ["dotnet", "dotnet-default.dll"] 
